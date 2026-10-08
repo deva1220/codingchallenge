@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<records>
+    <record>
+        <id>R001</id>
+        <name>Employee Onboarding</name>
+        <department>Human Resources</department>
+        <status>Completed</status>
+        <owner>devapriya</owner>
+    </record>
+
+    <record>
+        <id>R002</id>
+        <name>Background Verification</name>
+        <department>Verification</department>
+        <status>In Progress</status>
+        <owner>devapriya</owner>
+    </record>
+
+    <record>
+        <id>R003</id>
+        <name>Employee Documentation</name>
+        <department>Operations</department>
+        <status>Pending</status>
+        <owner>rahul</owner>
+    </record>
+
+    <record>
+        <id>R004</id>
+        <name>Verification Report</name>
+        <department>Verification</department>
+        <status>Completed</status>
+        <owner>rahul</owner>
+    </record>
+</records>

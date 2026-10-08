@@ -1,0 +1,249 @@
+.users-page {
+  padding: 5px;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.eyebrow {
+  color: #5269c9;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0 0 6px;
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: 27px;
+}
+
+.subtitle {
+  margin: 6px 0 0;
+  color: #7b8498;
+  font-size: 13px;
+}
+
+.add-button,
+.save-button {
+  border: none;
+  background: #263b80;
+  color: white;
+  padding: 11px 17px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.add-button:hover,
+.save-button:hover {
+  background: #1d2f6b;
+}
+
+.users-card {
+  background: white;
+  border-radius: 14px;
+  padding: 25px;
+  box-shadow: 0 5px 20px rgba(20, 30, 60, 0.05);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card-header h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.card-header span {
+  display: block;
+  color: #8a92a3;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.refresh-button {
+  border: 1px solid #dce1eb;
+  background: white;
+  padding: 8px 13px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+th {
+  text-align: left;
+  padding: 12px;
+  background: #f7f8fb;
+  color: #6f7789;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+td {
+  padding: 14px 12px;
+  border-bottom: 1px solid #edf0f5;
+}
+
+.user-id {
+  color: #5269c9;
+  font-weight: 600;
+}
+
+.role {
+  padding: 5px 9px;
+  background: #eef1f6;
+  color: #667085;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.role.admin {
+  background: #e9edff;
+  color: #3f54ad;
+}
+
+.actions {
+  white-space: nowrap;
+}
+
+.edit-button,
+.delete-button {
+  border: none;
+  padding: 7px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 11px;
+  margin-right: 5px;
+}
+
+.edit-button {
+  background: #edf0ff;
+  color: #4055ad;
+}
+
+.delete-button {
+  background: #fff0f0;
+  color: #c0392b;
+}
+
+.loading {
+  padding: 40px;
+  text-align: center;
+  color: #7b8498;
+}
+
+.error-box {
+  padding: 12px 15px;
+  background: #fff0f0;
+  color: #c0392b;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+
+/* MODAL */
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(20, 28, 48, 0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  width: 440px;
+  max-width: calc(100% - 30px);
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 20px 60px rgba(20, 30, 60, 0.2);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.modal-header h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.modal-header p {
+  margin: 5px 0 0;
+  color: #7b8498;
+  font-size: 12px;
+}
+
+.close-button {
+  border: none;
+  background: transparent;
+  font-size: 25px;
+  color: #7b8498;
+  cursor: pointer;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #30394d;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  border: 1px solid #dce1eb;
+  border-radius: 7px;
+  outline: none;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #5269c9;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.cancel-button {
+  border: 1px solid #dce1eb;
+  background: white;
+  padding: 10px 15px;
+  border-radius: 7px;
+  cursor: pointer;
+}

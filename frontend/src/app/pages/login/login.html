@@ -1,0 +1,79 @@
+<div class="login-page">
+
+  <div class="login-card">
+
+    <div class="brand">
+      <div class="brand-icon">A</div>
+
+      <div>
+        <h1>ABC</h1>
+        <p>Employee Management Portal</p>
+      </div>
+    </div>
+
+    <div class="welcome">
+      <h2>Welcome back</h2>
+      <p>Sign in to access your workspace</p>
+    </div>
+
+    <form (ngSubmit)="login()">
+
+      <div class="form-group">
+        <label>User ID</label>
+
+        <input
+          type="text"
+          name="userId"
+          [(ngModel)]="userId"
+          placeholder="Enter your user ID"
+        />
+      </div>
+
+      <div class="form-group">
+        <label>Password</label>
+
+        <input
+          type="password"
+          name="password"
+          [(ngModel)]="password"
+          placeholder="Enter your password"
+        />
+      </div>
+
+      <div class="form-group">
+        <label>Role</label>
+
+        <select
+          name="role"
+          [(ngModel)]="role"
+        >
+          <option value="General User">General User</option>
+          <option value="Admin">Admin</option>
+        </select>
+      </div>
+
+      <div
+        class="error-message"
+        *ngIf="errorMessage"
+      >
+        {{ errorMessage }}
+      </div>
+
+      <button
+        type="submit"
+        [disabled]="loading"
+      >
+        {{ loading ? 'Signing in...' : 'Sign In' }}
+      </button>
+
+    </form>
+
+    <div class="demo-info">
+      <strong>Demo credentials</strong>
+      <span>User: devapriya / password123</span>
+      <span>Admin: admin / admin123</span>
+    </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<users>
+  <user>
+    <id>U001</id>
+    <userId>devapriya</userId>
+    <password>password123</password>
+    <name>Devapriya U K</name>
+    <email>devapriya@example.com</email>
+    <role>General User</role>
+  </user>
+  <user>
+    <id>U002</id>
+    <userId>admin</userId>
+    <password>admin123</password>
+    <name>System Administrator</name>
+    <email>admin@example.com</email>
+    <role>Admin</role>
+  </user>
+  <user>
+    <id>U003</id>
+    <userId>rahul</userId>
+    <password>rahul123</password>
+    <name>Rahul Kumar</name>
+    <email>rahul@example.com</email>
+    <role>General User</role>
+  </user>
+  <user>
+    <id>U004</id>
+    <userId>test</userId>
+    <password>test123</password>
+    <name>test</name>
+    <email>test@gmail.com</email>
+    <role>General User</role>
+  </user>
+</users>
